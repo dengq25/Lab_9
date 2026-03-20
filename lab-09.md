@@ -192,9 +192,10 @@ ggplot(compas, aes(x = factor(decile_score), y = two_year_recid)) +
        y = "Proportion Who Reoffended")
 ```
 
-![](lab-09_files/figure-gfm/unnamed-chunk-5-1.png)<!-- --> Yes, higher
-COMPAS risk scores do correspond to higher rates of recidivism. The
-chart shows a clear and consistent positive trend
+![](lab-09_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+Yes, higher COMPAS risk scores do correspond to higher rates of
+recidivism. The chart shows a clear and consistent positive trend
 
 ## Exercise 6
 
@@ -252,8 +253,9 @@ compas %>%
        fill = "Race")
 ```
 
-![](lab-09_files/figure-gfm/unnamed-chunk-8-1.png)<!-- --> The
-distribution of COMPAS risk scores differs notably between Black and
+![](lab-09_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+
+The distribution of COMPAS risk scores differs notably between Black and
 white defendants. At low decile scores (1–2), Caucasian defendants make
 up a larger share, with white defendants representing about 35–50% of
 those scores. However, as decile scores increase, the proportion of
@@ -394,9 +396,10 @@ compas %>%
     ## ℹ Use `summarise(.by = c(race, decile_score))` for per-operation grouping
     ##   (`?dplyr::dplyr_by`) instead.
 
-![](lab-09_files/figure-gfm/unnamed-chunk-13-1.png)<!-- --> The lines
-track closely together across all decile scores, meaning a given score
-predicts similar recidivism rates for both races.
+![](lab-09_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+
+The lines track closely together across all decile scores, meaning a
+given score predicts similar recidivism rates for both races.
 
 ## Exercise 14, 15, 16
 

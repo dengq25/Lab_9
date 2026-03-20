@@ -79,6 +79,7 @@ ggplot(compas, aes(x = factor(decile_score), y = two_year_recid)) +
        x = "Decile Score",
        y = "Proportion Who Reoffended")
 ```
+
 Yes, higher COMPAS risk scores do correspond to higher rates of recidivism. The chart shows a clear and consistent positive trend
 
 ## Exercise 6
@@ -115,6 +116,7 @@ compas %>%
        y = "Proportion",
        fill = "Race")
 ```
+
 The distribution of COMPAS risk scores differs notably between Black and white defendants. At low decile scores (1–2), Caucasian defendants make up a larger share, with white defendants representing about 35–50% of those scores. However, as decile scores increase, the proportion of African-American defendants grows steadily. At scores of 8–10, Black defendants make up roughly 80% of all defendants at those risk levels. 
 
 ## Exercise 9
@@ -205,6 +207,7 @@ compas %>%
        color = "Race") +
   theme_minimal()
 ```
+
 The lines track closely together across all decile scores, meaning a given score predicts similar recidivism rates for both races.
 
 ## Exercise 14, 15, 16
